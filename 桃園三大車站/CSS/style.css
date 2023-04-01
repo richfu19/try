@@ -1,0 +1,88 @@
+
+/* 外觀 */
+.contain {
+    padding: 5% 3%;
+}
+
+/* 內文 */
+header {
+    background-color: #8accff;
+}
+
+h1 {
+    display: inline-block;
+    padding: 10px;
+    color: rgba(0,0,0,.8);
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 400;
+}
+
+
+/* 設定字形 */
+p {
+    font-family: 'Noto Sans TC', sans-serif;
+    }
+/* 父元素的比例 */
+.main{
+    width: 85%;}
+.sidebor{
+    width: 15%;}
+
+/* flex空間預設左至右 */
+
+.media{
+    display: flex;
+}    
+.content{
+    display:flex;}
+
+/* 邊框 */
+/* .content{
+    border: 1px solid black;margin-bottom: 0;
+} */
+
+h3 {
+    color: rgb(35, 35, 150);
+}
+
+/* 版面至中 */
+body{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+/* icon 圖案大小
+.material-symbols-outlined{
+    font-size:100px;
+} */
+
+/* 次標題車站 */
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+/* 滑上之前的顏色 */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* 車站表格 */
+.topnav a.active {
+    background-color: #d4065d;
+    color: white;
+}
+
+footer {
+    background-color:#8accff;font-size: 15px;padding: 10px;
+}
